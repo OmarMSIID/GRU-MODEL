@@ -93,5 +93,5 @@ custom_reviews = [
 ]
 
 if __name__ == "__main__":
-   model = load_model('gru_sentiment_model.h5')
+   model = load_model("gru_sentiment_model.h5")
    run_tests(model, custom_reviews)
